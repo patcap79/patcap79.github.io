@@ -1,0 +1,44 @@
+body {
+   border: 15px solid #D8D8D8;
+   background-color: #D8D8D8
+   margin: 0 auto;
+}
+
+p {
+  padding:20px 5px 20px 5px;
+  margin-bottom: 0px;
+}
+div {
+  width: ;
+  margin: 0 auto;
+  background-color: #D8D8D8;
+  text-align: center;
+}
+
+#navbar {
+  text-align: center; 
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+a {
+  text-decoration:none;
+  color: white; 
+}
+
+#top {
+  color: blue;
+  background-color:#FF8462;
+}
+
+#middle {
+  color: green;
+  background-color: #FF8462;
+}
+
+#bottom {
+  color: yellow;
+  background-color: #FF8462;
+}
+
+
