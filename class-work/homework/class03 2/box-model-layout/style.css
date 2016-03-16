@@ -1,12 +1,15 @@
-body {
-   border: 15px solid #D8D8D8;
+#content_wrapper {
+   width: 960px;
+   border: 10px solid #D8D8D8;
    background-color: #D8D8D8
    margin: 0 auto;
+   padding: 20px;
 }
 
 p {
   padding:20px 5px 20px 5px;
   margin-bottom: 0px;
+
 }
 div {
   width: ;
@@ -20,6 +23,7 @@ div {
   background-color: black;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 a {
   text-decoration:none;
