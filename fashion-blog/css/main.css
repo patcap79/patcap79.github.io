@@ -1,0 +1,23 @@
+ .container {
+    width: 720px;
+    padding: 54px;
+    border-left: 6px solid #dddddd; 
+    color: #444444;
+    font-family: Lato;
+    line-height: 1.5;
+ }
+
+.title {
+  font-size: 30pt;
+  color: red;
+  font-weight: lighter;
+}
+
+h2 {
+  color: black; 
+  font-weight: lighter;
+}
+
+.articles {
+  color: black;
+}
