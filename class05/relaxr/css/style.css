@@ -18,7 +18,8 @@
 
 .alignright {
   float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  padding: 0px 0px 10px 10px; 
+
 }
 
 .alignleft {
@@ -35,7 +36,59 @@ body {
   font-size: 55px;
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+
+
 }
+
+#container {
+  display: inline-block;
+  width: 960px;
+  margin: auto;
+  align-items: center;
+}
+
+#headline {
+  padding: 0 10px 10px 0;
+
+}
+
+header {
+  background: #033048
+}
+
+h1 {
+  color: white;
+  float: left;
+  margin-top: 10px;
+  padding-left: 50px;
+  font-weight: 800;
+}
+
+nav {
+  float: right;
+  padding: 0 0 10px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #f9e42e;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+h2 {
+  font-weight: 600; 
+  font-size: 40px;
+}
+
+#content {
+  padding-left: 50px;
+  padding-right: 670px;
+  padding-top: 50px;
+}
+
+
 
 
 /******************************************
@@ -43,14 +96,12 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
-  width: 960px;
-  margin: auto;
-}
 
-header {
 
-}
+
+
+
+
 
 footer {
 
@@ -59,7 +110,4 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
 
