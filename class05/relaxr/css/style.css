@@ -1,41 +1,9 @@
-/******************************************
-/* SETUP
-/*******************************************/
-
-/* Clear fix hack */
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
-}
-
-.clear {
-  clear: both;
-}
-
-.alignright {
-  float: right;
-  padding: 0px 0px 10px 10px; 
-
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
 
 body {
   color: #000;
   font-size: 55px;
   line-height: 1.4;
-  font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif;
   text-decoration: none;
 
 
@@ -48,7 +16,7 @@ body {
   align-items: center;
 }
 
-#headline {
+.headline {
   padding: 0 10px 10px 0;
 
 }
@@ -65,7 +33,7 @@ h1 {
   font-weight: 800;
 }
 
-nav {
+.nav {
   float: right;
   padding: 0 0 10px 10px;
 }
@@ -73,8 +41,16 @@ nav {
 a {
   text-decoration: none;
   color: #f9e42e;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 24px;
+}
+
+#content {
+  padding-left: 50px;
+  padding-right: 670px;
+  padding-top: 50px;
+  margin: auto;
+  width: 700px;
 }
 
 h2 {
@@ -82,32 +58,30 @@ h2 {
   font-size: 40px;
 }
 
-#content {
-  padding-left: 50px;
-  padding-right: 670px;
-  padding-top: 50px;
+p{
+  font-size: 24px
 }
 
+p:first-letter { 
+  font-size: 48px;
+  font-weight: 800;
+}
 
+#sidebar {
+  width: 240px;
+  font-weight: 800:
+  font-size: 32px;
+  float: right;
+}
 
+sub {
+  padding-right: 50px;
 
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-/* Center the container */
-
-
-
-
-
+}
 
 
 footer {
 
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
 
