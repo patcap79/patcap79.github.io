@@ -28,6 +28,15 @@ a {
   margin-left: 20px;
 }
 
+.taste {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.are {
+  border-bottom: 3px solid yellow;
+}
+
 .tagline {
   text-align: center;
   font-family: "Merriweather";
@@ -45,6 +54,7 @@ a {
   background-size: cover;
   overflow: auto;
   border: 1px solid black;
+  height: 500px;
 
 }
 
@@ -52,10 +62,10 @@ a {
   float: right;
   margin-left: 750px;
   margin-right: 50px;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
   margin-top: 50px;
   background-color: rgba(240, 240, 240, 0.76);
-  height: 200px;
+  height: 50px;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 25px;
@@ -63,16 +73,28 @@ a {
   border: 1px solid black;
 }
 
+.button {
+  text-transform: uppercase;
+  font-family: "Oswald";
+  background: yellow;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+  height: 50px;
+}
+
 #action {
   border: 1px solid black;
   background: #C6C6C6;
   width: 100%;
+
 }
 
 .box {
-  height: 500px;
-  width: 31%;
-  background: #C6C6C6;
+  height: 250px;
+  width: 30.80%;
+  background: white;
   font-family: "Merriweather", serif;
   font-size: 15px;
   padding-top: 30px;
@@ -88,9 +110,44 @@ a {
 #developer {
   float: left;
   text-align: left;
+  border-right: 2px solid gray;
+  border-left: 2px solid gray;
 }
 
 #designer {
   float: left;
   text-align: left;
+}
+
+.button-gray {
+  text-transform: uppercase;
+  font-family: "Oswald";
+  background: gray;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+  height: 50px;
+}
+
+
+
+h3 {
+  font-family: "Source Sans Pro";
+
+}
+
+h4 {
+  color: white;
+
+}
+
+footer {
+  background: black;
+  height: 50px;
+  padding-top: 3px;
+}
+
+.clear {
+  clear: both;
 }
