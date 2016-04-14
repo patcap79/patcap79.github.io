@@ -11,3 +11,13 @@
 // - .click()
 // - . text() or .html()
 // - .css()
+
+
+$(document) ready(function () {
+
+$('#a10').click(function () {
+  var count = 0 
+  
+})
+
+});

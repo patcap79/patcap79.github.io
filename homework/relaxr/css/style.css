@@ -83,7 +83,18 @@ sub {
 
 }
 
+h3{
+  font-size: 40px;
+}
 
+ul {
+  font-size: 30px;
+}
+
+content {
+  font-size: 24px;
+
+}
 footer {
 
 }

@@ -1,0 +1,24 @@
+body {
+  background: gray;
+}
+
+#title {
+  text-align: center;
+  color: white;
+}
+
+#container {
+  padding-left: 300px;
+}
+
+.left {
+  float: left;
+  color: white;
+
+}
+
+.right {
+  float: right;
+  padding-right: 200px;
+  color: white;
+}
