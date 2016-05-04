@@ -3,36 +3,11 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Caputo Chromeless Player Example </title>
+    <link rel="stylesheet" href="css/style.css">
     <header>Caputo Chromeless Player Example</header>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="//dev-cloudpath.nbcuni.com/head/api/NBCUniCPC.mvpd.min.js"></script>
 
-    <style>
-        html {
-            height: 100%;
-        }
-
-        body {
-            margin: 10px;
-            padding: 10px;
-            height: 100%;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        #playerContainer {
-            width: 1040px;
-            height: 560px;
-            border: 1px solid #000000;
-            display: inline-block;
-            margin-top: 5px;
-        }
-
-        #videoplayer {
-            width: 100%;
-            height: 100%;
-            position: relative;
-        }
-    </style>
 
 </head>
 <body>
@@ -42,6 +17,8 @@
 </div>
 
 <h2>NBC Live Stream</h2>
+<img src="Images/nbclogo.j">
+
 <h3>Player Controls</h3>
 
 <div id="controls">
@@ -55,52 +32,7 @@
     <button id="setVol-btn">Set Volume:</button>
     <input id="volumeInputTxt" type="number" min="0" max="1" step=".01"></input>
 
-<style>
-    #play-btn {
-        background-color: black;
-        color: white;
-    }
-    
-    #pause-btn {
-        background-color: black;
-        color: white;
-    }
-    
-    #golive-btn {
-        background-color: black;
-        color: white;
-    }
-    
-    #mute-btn {
-        background-color: black;
-        color: white;
-    }
-    
-    #unmute-btn {
-        background-color: black;
-        color: white;
-    }
 
-    #cc-off-btn {
-        background-color: black;
-        color: white;
-    }
-
-    #cc-on-btn {
-        background-color: black;
-        color: white;
-    }
-
-    #setVol-btn {
-        background-color: black;
-        color: white;
-    }
-
-
-
-
-
-</style>
 </div>
 <h3>
     
@@ -108,7 +40,7 @@
 </h3>
 
 <h3>Closed Caption Controls</h3>
-<img src="images/CaputoNBC.png">
+
 
 <div id="closedcaption">
     Set Font Family:
