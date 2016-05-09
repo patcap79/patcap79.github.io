@@ -1,0 +1,14 @@
+body {
+  background: black;
+  color: white;
+}
+
+#title {
+  text-align: center;
+  color: white;
+}
+
+#container {
+  padding-left: 300px;
+}
+

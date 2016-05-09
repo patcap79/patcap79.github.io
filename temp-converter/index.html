@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Temp Converter</title>
+		<link rel="stylesheet" href="css/styles.css">
+    <script>
+function convert(degree) {
+    if (degree == "C") {
+        F = document.getElementById("c").value * 9 / 5 + 32;
+        document.getElementById("f").value = Math.round(F);
+    } else  {
+        C = (document.getElementById("f").value -32) * 5 / 9;
+        document.getElementById("c").value = Math.round(C);
+    }
+}
+</script>
+	</head>
+	<body>
+
+  <Title>Temperature Calculator</Title>
+
+<div id="title">
+<h1>Temperature Conversion Calculator</h1>
+</div>
+
+<body>
+<p>Insert a number into one of the fields below:</p>
+<input id="c" onkeyup="convert('C')"> degrees Celsius<br>
+equals<br> 
+<input id="f" onkeyup="convert('F')"> degrees Fahrenheit 
+
+</body>
+
+  </div>
+
+		<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+		<script src="js/app.js"></script>
+
+
+</div>
+	</body>
+</html>
