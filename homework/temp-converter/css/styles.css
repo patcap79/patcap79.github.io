@@ -1,5 +1,6 @@
 body {
-  background: gray;
+  background: black;
+  color: white;
 }
 
 #title {
@@ -11,14 +12,3 @@ body {
   padding-left: 300px;
 }
 
-.left {
-  float: left;
-  color: white;
-
-}
-
-.right {
-  float: right;
-  padding-right: 200px;
-  color: white;
-}

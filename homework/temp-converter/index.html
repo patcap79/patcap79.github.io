@@ -3,6 +3,17 @@
 	<head>
 		<title>Temp Converter</title>
 		<link rel="stylesheet" href="css/styles.css">
+    <script>
+function convert(degree) {
+    if (degree == "C") {
+        F = document.getElementById("c").value * 9 / 5 + 32;
+        document.getElementById("f").value = Math.round(F);
+    } else  {
+        C = (document.getElementById("f").value -32) * 5 / 9;
+        document.getElementById("c").value = Math.round(C);
+    }
+}
+</script>
 	</head>
 	<body>
 
@@ -12,24 +23,13 @@
 <h1>Temperature Conversion Calculator</h1>
 </div>
 
-<div id="container">
-  <div class='left'>
-  <h2>Fahrenheit</h2>
+<body>
+<p>Insert a number into one of the fields below:</p>
+<input id="c" onkeyup="convert('C')"> degrees Celsius<br>
+equals<br> 
+<input id="f" onkeyup="convert('F')"> degrees Fahrenheit 
 
-<form action="convert">
-  Current Temperature: <input class="button" type="text" placeholder="degrees" name="farenheit">
-<button id="submit">Submit</button>
-</form>
-  
-  </div>
-
-  <div class='right'>
-  <h2>Celsius</h2>
-
-  <form action="convert">
-  Current Temperature: <input class="button" type="text" placeholder="degrees" name="celsius">
-<button id="submit">Submit</button>
-</form>
+</body>
 
   </div>
 
